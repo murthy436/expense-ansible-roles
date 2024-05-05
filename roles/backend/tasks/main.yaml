@@ -19,7 +19,7 @@
   tags:
   - deployment
   ansible.builtin.import_role:
-    name: common
+    name: comman
     tasks_from: app-pre-req
 
 - name: instal npm dependencies
