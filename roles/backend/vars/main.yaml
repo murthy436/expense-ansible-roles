@@ -1,4 +1,4 @@
 login_user: root
 login_host: db.aws78s.online
 login_password: ExpenseApp@1
-DB_Host: db.aws78s.online
+DB_HOST: db.aws78s.online
