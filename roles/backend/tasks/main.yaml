@@ -16,8 +16,6 @@
     name: expense
 
 - name: run app pre-requisites
-  tags:
-  - deployment
   ansible.builtin.import_role:
     name: comman
     tasks_from: app-pre-req
