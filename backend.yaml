@@ -1,5 +1,7 @@
 - name: confiugre backend server
   hosts: backend
+  vars_files:
+  - passwords.yaml
   become: yes
   roles:
     - backend 
