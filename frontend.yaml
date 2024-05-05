@@ -1,5 +1,7 @@
 - name: configure frontend service
   hosts: frontend
+  vars_files:
+  - passwords.yaml
   become: yes
   roles:
     - frontend
