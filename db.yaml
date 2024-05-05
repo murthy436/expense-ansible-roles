@@ -1,0 +1,5 @@
+- name: Install db
+  hosts: db
+  become: yes
+  roles:
+    - db
