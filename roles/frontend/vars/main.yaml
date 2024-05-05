@@ -1,1 +1,1 @@
-BACKEND_API_URL = db.aws78s.online
+BACKEND_API_URL: db.aws78s.online
